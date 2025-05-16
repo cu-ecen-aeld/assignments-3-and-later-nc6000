@@ -1,0 +1,2802 @@
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+123
+File /tmp/aeld-data/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+123
+File /tmp/aeld-data/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+123
+File /tmp/aeld-data/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+123
+File /tmp/aeld-data/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+123
+File /tmp/aeld-data/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+123
+File /tmp/aeld-data/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+123
+File /tmp/aeld-data/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+123
+File /tmp/aeld-data/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+123
+File /tmp/aeld-data/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+123
+File /tmp/aeld-data/nc600010.txt created with content:
+123
+./finder.sh: line 62: unexpected EOF while looking for matching `''
+./finder.sh: line 66: syntax error: unexpected end of file
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz
+/tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz created
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60001.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60002.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60003.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60004.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60005.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60006.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60007.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60008.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60009.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc600010.txt
+123
+File /tmp/aeld-data/LVNLkIuj4GiH9fLsbFs4eg1ogFSPDdlz/nc600010.txt created with content:
+123
+./finder.sh: line 62: unexpected EOF while looking for matching `''
+./finder.sh: line 66: syntax error: unexpected end of file
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./writer.sh: line 20: /tmp/aeld-data/nc60001.txt: No such file or directory
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+cat: /tmp/aeld-data/nc60001.txt: No such file or directory
+File /tmp/aeld-data/nc60001.txt created with content:
+cat: /tmp/aeld-data/nc60001.txt: No such file or directory
+./writer.sh: line 33: /tmp/aeld-data/nc60001.txt: No such file or directory
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws
+./writer.sh: line 20: /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws/nc60001.txt: No such file or directory
+
+
+Creating: /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws/nc60001.txt
+cat: /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws/nc60001.txt: No such file or directory
+File /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws/nc60001.txt created with content:
+cat: /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws/nc60001.txt: No such file or directory
+./writer.sh: line 33: /tmp/aeld-data/nK9e1Pj3bthtd0rJstijrFqKdjjx28Ws/nc60001.txt: No such file or directory
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+123
+File /tmp/aeld-data/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+123
+File /tmp/aeld-data/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+123
+File /tmp/aeld-data/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+123
+File /tmp/aeld-data/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+123
+File /tmp/aeld-data/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+123
+File /tmp/aeld-data/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+123
+File /tmp/aeld-data/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+123
+File /tmp/aeld-data/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+123
+File /tmp/aeld-data/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+123
+File /tmp/aeld-data/nc600010.txt created with content:
+123
+./finder.sh: line 62: unexpected EOF while looking for matching `''
+./finder.sh: line 66: syntax error: unexpected end of file
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk
+/tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk created
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60001.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60002.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60003.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60004.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60005.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60006.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60007.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60008.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60009.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc600010.txt
+123
+File /tmp/aeld-data/B6IpLDqe5pAtDCtiTZXSULvn8l10y1nk/nc600010.txt created with content:
+123
+./finder.sh: line 62: unexpected EOF while looking for matching `''
+./finder.sh: line 66: syntax error: unexpected end of file
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+123
+File /tmp/aeld-data/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+123
+File /tmp/aeld-data/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+123
+File /tmp/aeld-data/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+123
+File /tmp/aeld-data/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+123
+File /tmp/aeld-data/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+123
+File /tmp/aeld-data/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+123
+File /tmp/aeld-data/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+123
+File /tmp/aeld-data/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+123
+File /tmp/aeld-data/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+123
+File /tmp/aeld-data/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/nc60001.txt
+/tmp/aeld-data/nc60007.txt
+/tmp/aeld-data/nc60009.txt
+/tmp/aeld-data/nc600010.txt
+/tmp/aeld-data/nc60004.txt
+/tmp/aeld-data/nc60002.txt
+/tmp/aeld-data/nc60005.txt
+/tmp/aeld-data/nc60003.txt
+/tmp/aeld-data/nc60008.txt
+/tmp/aeld-data/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60006.txt:AELD_IS_FUN
+
+ANY CASE occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60006.txt:AELD_IS_FUN
+
+COUNT LINES FOR EACH FILE
+
+conf/assignment.txt:0
+conf/username.txt:0
+finder.sh:0
+finder-test.sh:1
+writer.sh:0
+/tmp/aeld-data/nc60001.txt:1
+/tmp/aeld-data/nc60007.txt:1
+/tmp/aeld-data/nc60009.txt:1
+/tmp/aeld-data/nc600010.txt:1
+/tmp/aeld-data/nc60004.txt:1
+/tmp/aeld-data/nc60002.txt:1
+/tmp/aeld-data/nc60005.txt:1
+/tmp/aeld-data/nc60003.txt:1
+/tmp/aeld-data/nc60008.txt:1
+/tmp/aeld-data/nc60006.txt:1 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8 created
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60001.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60002.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60003.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60004.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60005.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60006.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60007.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60008.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60009.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc600010.txt
+123
+File /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60001.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60007.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60009.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc600010.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60004.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60002.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60005.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60003.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60008.txt
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60006.txt:AELD_IS_FUN
+
+ANY CASE occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60006.txt:AELD_IS_FUN
+
+COUNT LINES FOR EACH FILE
+
+conf/assignment.txt:0
+conf/username.txt:0
+finder.sh:0
+finder-test.sh:1
+writer.sh:0
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60001.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60007.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60009.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc600010.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60004.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60002.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60005.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60003.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60008.txt:1
+/tmp/aeld-data/lPgvq02w64cW6tRl6j1R2N2jv0gEqxH8/nc60006.txt:1 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+123
+File /tmp/aeld-data/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+123
+File /tmp/aeld-data/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+123
+File /tmp/aeld-data/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+123
+File /tmp/aeld-data/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+123
+File /tmp/aeld-data/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+123
+File /tmp/aeld-data/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+123
+File /tmp/aeld-data/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+123
+File /tmp/aeld-data/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+123
+File /tmp/aeld-data/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+123
+File /tmp/aeld-data/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV
+/tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV created
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60001.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60002.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60003.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60004.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60005.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60006.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60007.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60008.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60009.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc600010.txt
+123
+File /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/hGq5Lh6UQmAaZzf1dfRi8xTimDS8e2rV
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+123
+File /tmp/aeld-data/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+123
+File /tmp/aeld-data/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+123
+File /tmp/aeld-data/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+123
+File /tmp/aeld-data/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+123
+File /tmp/aeld-data/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+123
+File /tmp/aeld-data/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+123
+File /tmp/aeld-data/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+123
+File /tmp/aeld-data/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+123
+File /tmp/aeld-data/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+123
+File /tmp/aeld-data/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n
+/tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n created
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60001.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60002.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60003.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60004.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60005.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60006.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60007.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60008.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60009.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc600010.txt
+123
+File /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/rT97ERF0cFke5yO5GkkaRndhrAkpjv3n
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+123
+File /tmp/aeld-data/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+123
+File /tmp/aeld-data/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+123
+File /tmp/aeld-data/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+123
+File /tmp/aeld-data/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+123
+File /tmp/aeld-data/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+123
+File /tmp/aeld-data/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+123
+File /tmp/aeld-data/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+123
+File /tmp/aeld-data/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+123
+File /tmp/aeld-data/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+123
+File /tmp/aeld-data/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/nc60001.txt
+/tmp/aeld-data/nc60007.txt
+/tmp/aeld-data/nc60009.txt
+/tmp/aeld-data/nc600010.txt
+/tmp/aeld-data/nc60004.txt
+/tmp/aeld-data/nc60002.txt
+/tmp/aeld-data/nc60005.txt
+/tmp/aeld-data/nc60003.txt
+/tmp/aeld-data/nc60008.txt
+/tmp/aeld-data/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO created
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60001.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60001.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60002.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60002.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60003.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60003.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60004.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60004.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60005.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60005.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60006.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60006.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60007.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60007.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60008.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60008.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60009.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60009.txt created with content:
+123
+
+
+Creating: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc600010.txt
+123
+File /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc600010.txt created with content:
+123
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60001.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60007.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60009.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc600010.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60004.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60002.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60005.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60003.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60008.txt
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/zk2HywVCIDb5DrTNA4APRyNywzaNedqO/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+
+File /tmp/aeld-data/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+
+File /tmp/aeld-data/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+
+File /tmp/aeld-data/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+
+File /tmp/aeld-data/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+
+File /tmp/aeld-data/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+
+File /tmp/aeld-data/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+
+File /tmp/aeld-data/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+
+File /tmp/aeld-data/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+
+File /tmp/aeld-data/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+
+File /tmp/aeld-data/nc600010.txt created with content:
+
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/nc60001.txt
+/tmp/aeld-data/nc60007.txt
+/tmp/aeld-data/nc60009.txt
+/tmp/aeld-data/nc600010.txt
+/tmp/aeld-data/nc60004.txt
+/tmp/aeld-data/nc60002.txt
+/tmp/aeld-data/nc60005.txt
+/tmp/aeld-data/nc60003.txt
+/tmp/aeld-data/nc60008.txt
+/tmp/aeld-data/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT created
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60001.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60002.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60003.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60004.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60005.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60006.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60007.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60008.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60009.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc600010.txt
+
+File /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc600010.txt created with content:
+
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60001.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60007.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60009.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc600010.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60004.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60002.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60005.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60003.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60008.txt
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/OWm3UGpM3WKRLZiTT2u50KDz0NeTuYxT/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+./assignment-autotest/test/assignment1/assignment-test.sh: line 23: ./finder-test.sh: No such file or directory
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 31: ./finder-test.sh: No such file or directory
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+
+File /tmp/aeld-data/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+
+File /tmp/aeld-data/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+
+File /tmp/aeld-data/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+
+File /tmp/aeld-data/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+
+File /tmp/aeld-data/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+
+File /tmp/aeld-data/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+
+File /tmp/aeld-data/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+
+File /tmp/aeld-data/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+
+File /tmp/aeld-data/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+
+File /tmp/aeld-data/nc600010.txt created with content:
+
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/nc60001.txt
+/tmp/aeld-data/nc60007.txt
+/tmp/aeld-data/nc60009.txt
+/tmp/aeld-data/nc600010.txt
+/tmp/aeld-data/nc60004.txt
+/tmp/aeld-data/nc60002.txt
+/tmp/aeld-data/nc60005.txt
+/tmp/aeld-data/nc60003.txt
+/tmp/aeld-data/nc60008.txt
+/tmp/aeld-data/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL created
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60001.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60002.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60003.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60004.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60005.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60006.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60007.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60008.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60009.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc600010.txt
+
+File /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc600010.txt created with content:
+
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 11 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60001.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60007.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60009.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc600010.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60004.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60002.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60005.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60003.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60008.txt
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/K9AEwwHpjwVixRxN9bp7Eh3KBotLC3qL/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+
+File /tmp/aeld-data/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+
+File /tmp/aeld-data/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+
+File /tmp/aeld-data/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+
+File /tmp/aeld-data/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+
+File /tmp/aeld-data/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+
+File /tmp/aeld-data/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+
+File /tmp/aeld-data/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+
+File /tmp/aeld-data/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+
+File /tmp/aeld-data/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+
+File /tmp/aeld-data/nc600010.txt created with content:
+
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 10 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/nc60001.txt
+/tmp/aeld-data/nc60007.txt
+/tmp/aeld-data/nc60009.txt
+/tmp/aeld-data/nc600010.txt
+/tmp/aeld-data/nc60004.txt
+/tmp/aeld-data/nc60002.txt
+/tmp/aeld-data/nc60005.txt
+/tmp/aeld-data/nc60003.txt
+/tmp/aeld-data/nc60008.txt
+/tmp/aeld-data/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ created
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60001.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60002.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60003.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60004.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60005.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60006.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60007.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60008.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60009.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc600010.txt
+
+File /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc600010.txt created with content:
+
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 
+
+Search directory found: /tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ
+search in files and directories:
+nc600010.txt
+nc60001.txt
+nc60002.txt
+nc60003.txt
+nc60004.txt
+nc60005.txt
+nc60006.txt
+nc60007.txt
+nc60008.txt
+nc60009.txt
+search for: AELD_IS_FUN
+
+The number of files are 10 and the number of matching lines are 11
+
+
+files found:
+11
+
+finder-test.sh
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60001.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60007.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60009.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc600010.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60004.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60002.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60005.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60003.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60008.txt
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60006.txt
+
+occurances found:
+11
+
+finder-test.sh:WRITESTR=AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60001.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60007.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60009.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc600010.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60004.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60002.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60005.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60003.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60008.txt:AELD_IS_FUN
+/tmp/aeld-data/70HnUs98oWw1rCScKPeofXGpCW9JccSZ/nc60006.txt:AELD_IS_FUN but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+=================================
+=================================
+=================================
+NC6000
+My name is n
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+nc6000
+=================================
+=================================
+Read nc6000 from conf/username.txt
+=================================
+nc6000
+nc6000
+=================================
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/../student-test/assignment1/Test_validate_username.c:17:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1 ~/cu/001/assignment-1-nc6000
+Both arguments are not provided
+Both arguments are not provided
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+
+
+Creating: /tmp/aeld-data/nc60001.txt
+
+File /tmp/aeld-data/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60002.txt
+
+File /tmp/aeld-data/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60003.txt
+
+File /tmp/aeld-data/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60004.txt
+
+File /tmp/aeld-data/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60005.txt
+
+File /tmp/aeld-data/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60006.txt
+
+File /tmp/aeld-data/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60007.txt
+
+File /tmp/aeld-data/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60008.txt
+
+File /tmp/aeld-data/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc60009.txt
+
+File /tmp/aeld-data/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/nc600010.txt
+
+File /tmp/aeld-data/nc600010.txt created with content:
+
+Search directory found: /tmp/aeld-data search in files and directories: nc600010.txt nc60001.txt nc60002.txt nc60003.txt nc60004.txt nc60005.txt nc60006.txt nc60007.txt nc60008.txt nc60009.txt search for: AELD_IS_FUN The number of files are 10 and the number of matching lines are 10 files found: 11 finder-test.sh /tmp/aeld-data/nc60001.txt /tmp/aeld-data/nc60007.txt /tmp/aeld-data/nc60009.txt /tmp/aeld-data/nc600010.txt /tmp/aeld-data/nc60004.txt /tmp/aeld-data/nc60002.txt /tmp/aeld-data/nc60005.txt /tmp/aeld-data/nc60003.txt /tmp/aeld-data/nc60008.txt /tmp/aeld-data/nc60006.txt occurances found: 11 finder-test.sh:WRITESTR=AELD_IS_FUN /tmp/aeld-data/nc60001.txt:AELD_IS_FUN /tmp/aeld-data/nc60007.txt:AELD_IS_FUN /tmp/aeld-data/nc60009.txt:AELD_IS_FUN /tmp/aeld-data/nc600010.txt:AELD_IS_FUN /tmp/aeld-data/nc60004.txt:AELD_IS_FUN /tmp/aeld-data/nc60002.txt:AELD_IS_FUN /tmp/aeld-data/nc60005.txt:AELD_IS_FUN /tmp/aeld-data/nc60003.txt:AELD_IS_FUN /tmp/aeld-data/nc60008.txt:AELD_IS_FUN /tmp/aeld-data/nc60006.txt:AELD_IS_FUN
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q
+/tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q created
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60001.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60001.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60002.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60002.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60003.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60003.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60004.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60004.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60005.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60005.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60006.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60006.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60007.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60007.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60008.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60008.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60009.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60009.txt created with content:
+
+
+
+Creating: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc600010.txt
+
+File /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc600010.txt created with content:
+
+Search directory found: /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q search in files and directories: nc600010.txt nc60001.txt nc60002.txt nc60003.txt nc60004.txt nc60005.txt nc60006.txt nc60007.txt nc60008.txt nc60009.txt search for: AELD_IS_FUN The number of files are 10 and the number of matching lines are 10 files found: 11 finder-test.sh /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60001.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60007.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60009.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc600010.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60004.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60002.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60005.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60003.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60008.txt /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60006.txt occurances found: 11 finder-test.sh:WRITESTR=AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60001.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60007.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60009.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc600010.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60004.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60002.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60005.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60003.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60008.txt:AELD_IS_FUN /tmp/aeld-data/F8Wkbf0pdNlD9kH3rfPZgFZwZu4SmN1Q/nc60006.txt:AELD_IS_FUN
+success
+Test of assignment assignment1 complete with success
+Running test with user nc6000
+-- Generating ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c
+-- Building executable including ;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nc6000/cu/001/assignment-1-nc6000/build
+[ 10%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 20%] Linking C static library libunity.a
+[ 20%] Built target unity
+[ 30%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating test/unity_runner.c
+[ 40%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 60%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 70%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 80%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 90%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment2 ~/cu/001/assignment-1-nc6000
+~/cu/001/assignment-1-nc6000/finder-app ~/cu/001/assignment-1-nc6000/assignment-autotest/test/assignment2 ~/cu/001/assignment-1-nc6000
+rm -f writer writer.o
+gcc -Wall -Wextra -O2 -c writer.c -o writer.o
+gcc -Wall -Wextra -O2 -o writer writer.o
+Usage: writer <file> <string>
+Usage: writer <file> <string>
+Performing make clean
+rm -f writer writer.o
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Cleaning previous build artifacts...
+rm -f writer writer.o
+Compiling writer application using native compilation...
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+File written: /tmp/aeld-data/nc60001.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60002.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60003.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60004.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60005.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60006.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60007.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60008.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc60009.txt
+String written: AELD_IS_FUN
+File written: /tmp/aeld-data/nc600010.txt
+String written: AELD_IS_FUN
+Search directory found: /tmp/aeld-data search in files and directories: nc600010.txt nc60001.txt nc60002.txt nc60003.txt nc60004.txt nc60005.txt nc60006.txt nc60007.txt nc60008.txt nc60009.txt search for: AELD_IS_FUN The number of files are 10 and the number of matching lines are 10 files found: 12 finder-test-OLD.sh finder-test.sh /tmp/aeld-data/nc60001.txt /tmp/aeld-data/nc60007.txt /tmp/aeld-data/nc60009.txt /tmp/aeld-data/nc600010.txt /tmp/aeld-data/nc60004.txt /tmp/aeld-data/nc60002.txt /tmp/aeld-data/nc60005.txt /tmp/aeld-data/nc60003.txt /tmp/aeld-data/nc60008.txt /tmp/aeld-data/nc60006.txt occurances found: 12 finder-test-OLD.sh:WRITESTR=AELD_IS_FUN finder-test.sh:WRITESTR=AELD_IS_FUN /tmp/aeld-data/nc60001.txt:AELD_IS_FUN /tmp/aeld-data/nc60007.txt:AELD_IS_FUN /tmp/aeld-data/nc60009.txt:AELD_IS_FUN /tmp/aeld-data/nc600010.txt:AELD_IS_FUN /tmp/aeld-data/nc60004.txt:AELD_IS_FUN /tmp/aeld-data/nc60002.txt:AELD_IS_FUN /tmp/aeld-data/nc60005.txt:AELD_IS_FUN /tmp/aeld-data/nc60003.txt:AELD_IS_FUN /tmp/aeld-data/nc60008.txt:AELD_IS_FUN /tmp/aeld-data/nc60006.txt:AELD_IS_FUN
+success
+Test of assignment assignment2 complete with success

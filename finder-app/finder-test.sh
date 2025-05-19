@@ -28,7 +28,6 @@ fi
 MATCHSTR="The number of files are ${NUMFILES} and the number of matching lines are ${NUMFILES}"
 
 echo "Cleaning previous build artifacts..."
-make clean || true
 rm -f writer
 
 echo "Compiling writer application using native compilation..."
@@ -71,4 +70,3 @@ else
 	echo "failed: expected  ${MATCHSTR} in ${OUTPUTSTRING} but instead found"
 	exit 1
 fi
-

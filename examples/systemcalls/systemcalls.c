@@ -159,6 +159,6 @@ bool do_exec_redirect(const char *outputfile, int count, ...)
         }
 
         return true;
-    }
+    }sys
 }
 

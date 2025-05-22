@@ -27,17 +27,24 @@ fi
 
 MATCHSTR="The number of files are ${NUMFILES} and the number of matching lines are ${NUMFILES}"
 
-echo "Cleaning previous build artifacts..."
-rm -f writer
+#echo "Cleaning previous build artifacts..."
+#rm -f writer
 
-echo "Compiling writer application using native compilation..."
-gcc -Wall -Werror -o writer writer.c
+#echo "Compiling writer application using native compilation..."
+#gcc -Wall -Werror -o writer writer.c
+
+if [ ! -x ./writer ]; then
+  echo "ERROR: writer binary not found or not executable!"
+  exit 1
+fi
+
+
 
 echo "Writing ${NUMFILES} files containing string ${WRITESTR} to ${WRITEDIR}"
 
 rm -rf "${WRITEDIR}"
 
-assignment=$(cat ../conf/assignment.txt)
+assignment=$(cat conf/assignment.txt)
 
 if [ "$assignment" != "assignment1" ]
 then
@@ -70,3 +77,4 @@ else
 	echo "failed: expected  ${MATCHSTR} in ${OUTPUTSTRING} but instead found"
 	exit 1
 fi
+

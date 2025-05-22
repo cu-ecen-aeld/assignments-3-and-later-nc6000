@@ -1,7 +1,7 @@
 assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o: \
- /home/nc6000/cu/001/assignment-1-nc6000/examples/autotest-validate/autotest-validate.c \
+ /home/nc6000/repo/examples/autotest-validate/autotest-validate.c \
  /usr/include/stdc-predef.h \
- /home/nc6000/cu/001/assignment-1-nc6000/examples/autotest-validate/autotest-validate.h \
+ /home/nc6000/repo/examples/autotest-validate/autotest-validate.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

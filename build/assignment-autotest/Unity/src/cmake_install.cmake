@@ -1,4 +1,4 @@
-# Install script for directory: /home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/Unity/src
+# Install script for directory: /home/nc6000/repo/assignment-autotest/Unity/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,13 +44,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/Unity/src/libunity.a")
+   "/home/nc6000/repo/assignment-autotest/Unity/src/libunity.a")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity/src/libunity.a")
+  file(INSTALL DESTINATION "/home/nc6000/repo/assignment-autotest/Unity/src" TYPE STATIC_LIBRARY FILES "/home/nc6000/repo/build/assignment-autotest/Unity/src/libunity.a")
 endif()
 

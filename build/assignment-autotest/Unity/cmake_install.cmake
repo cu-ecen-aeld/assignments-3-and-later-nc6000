@@ -1,4 +1,4 @@
-# Install script for directory: /home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/Unity
+# Install script for directory: /home/nc6000/repo/assignment-autotest/Unity
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/src" TYPE DIRECTORY FILES "/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/Unity/src/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/src" TYPE DIRECTORY FILES "/home/nc6000/repo/assignment-autotest/Unity/src/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake/unityConfig.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake/unityConfig.cmake"
-         "/home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity/CMakeFiles/Export/share/unityConfig/cmake/unityConfig.cmake")
+         "/home/nc6000/repo/build/assignment-autotest/Unity/CMakeFiles/Export/share/unityConfig/cmake/unityConfig.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake/unityConfig-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -59,15 +59,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity/CMakeFiles/Export/share/unityConfig/cmake/unityConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/nc6000/repo/build/assignment-autotest/Unity/CMakeFiles/Export/share/unityConfig/cmake/unityConfig.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity/CMakeFiles/Export/share/unityConfig/cmake/unityConfig-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unityConfig/cmake" TYPE FILE FILES "/home/nc6000/repo/build/assignment-autotest/Unity/CMakeFiles/Export/share/unityConfig/cmake/unityConfig-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity/src/cmake_install.cmake")
+  include("/home/nc6000/repo/build/assignment-autotest/Unity/src/cmake_install.cmake")
 
 endif()
 

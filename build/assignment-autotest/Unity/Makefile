@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nc6000/cu/001/assignment-1-nc6000
+CMAKE_SOURCE_DIR = /home/nc6000/repo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nc6000/cu/001/assignment-1-nc6000/build
+CMAKE_BINARY_DIR = /home/nc6000/repo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nc6000/cu/001/assignment-1-nc6000/build/CMakeFiles /home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity//CMakeFiles/progress.marks
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nc6000/cu/001/assignment-1-nc6000/build/CMakeFiles 0
+	cd /home/nc6000/repo/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nc6000/repo/build/CMakeFiles /home/nc6000/repo/build/assignment-autotest/Unity//CMakeFiles/progress.marks
+	cd /home/nc6000/repo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nc6000/repo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/clean
+	cd /home/nc6000/repo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
+	cd /home/nc6000/repo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
+	cd /home/nc6000/repo/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assignment-autotest/Unity/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nc6000/repo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nc6000/cu/001/assignment-1-nc6000/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nc6000/repo/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

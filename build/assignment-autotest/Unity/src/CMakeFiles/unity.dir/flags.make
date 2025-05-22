@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest/Unity/src
+C_INCLUDES = -I/home/nc6000/repo/assignment-autotest/Unity/src
 
-C_FLAGS = 
+C_FLAGS = -pthread
 

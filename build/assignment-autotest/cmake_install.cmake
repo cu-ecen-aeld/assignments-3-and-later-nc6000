@@ -1,4 +1,4 @@
-# Install script for directory: /home/nc6000/cu/001/assignment-1-nc6000/assignment-autotest
+# Install script for directory: /home/nc6000/repo/assignment-autotest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nc6000/cu/001/assignment-1-nc6000/build/assignment-autotest/Unity/cmake_install.cmake")
+  include("/home/nc6000/repo/build/assignment-autotest/Unity/cmake_install.cmake")
 
 endif()
 

@@ -6,11 +6,13 @@
 set -e
 set -u
 
+
 # Prevent full script execution as root
 if [ "$EUID" -eq 0 ]; then
   echo "Please DO NOT run this script as root. Sudo will be used only when needed."
   exit 1
 fi
+
 
 KERNEL_REPO=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
 KERNEL_VERSION=v5.15.163
